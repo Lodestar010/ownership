@@ -11,10 +11,10 @@ Ownership is an ENS-style naming service native to Arc, offering `.arc` names th
 
 
 - X: https://x.com/Ownership010
-- Telegram: https://t.me/ownership010telegram
+- Telegram: https://t.me/ownership010channel
+- YouTube: https://www.youtube.com/@Lodestar010
 - Discord: https://discord.gg/FxwBSR2Ew
 - GitHub: https://github.com/Lodestar010/ownership
-
 
 ## What it is
 
