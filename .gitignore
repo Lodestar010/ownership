@@ -1,0 +1,19 @@
+# Hardhat / build output
+node_modules/
+cache/
+artifacts/
+typechain-types/
+coverage/
+coverage.json
+
+# Env & secrets
+.env
+.env.*
+*.key
+*.pem
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp

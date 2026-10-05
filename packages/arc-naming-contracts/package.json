@@ -1,0 +1,36 @@
+{
+  "description": "Interfaces, ABIs, TypeScript types, and deployed addresses for the .arc naming service on Arc (testnet). Resolve names, register names, and sponsor gas via the paymaster — without vendoring the contracts.",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist",
+    "abis",
+    "addresses.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "arc",
+    "naming",
+    "ens",
+    "erc4337",
+    "paymaster",
+    "did"
+  ],
+  "license": "AGPL-3.0-only",
+  "main": "dist/index.js",
+  "name": "@lodestarfo/arc-naming-contracts",
+  "peerDependencies": {
+    "ethers": "^6.0.0"
+  },
+  "scripts": {
+    "build": "node build-package.js && tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "types": "dist/index.d.ts",
+  "version": "0.1.0"
+}
