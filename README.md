@@ -15,6 +15,7 @@ Ownership is an ENS-style naming service native to Arc, offering `.arc` names th
 - YouTube: https://www.youtube.com/@Lodestar010
 - Discord: https://discord.gg/FxwBSR2Ew
 - GitHub: https://github.com/Lodestar010/ownership
+- Whitepaper: [2026-10-06-Ownership-Whitepaper.docx](whitepaper/2026-10-06-Ownership-Whitepaper.docx) ([mobile HTML](whitepaper/2026-10-06-Ownership-Whitepaper-mobile.html))
 
 ## What it is
 
