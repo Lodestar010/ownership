@@ -14,7 +14,7 @@ const config: HardhatUserConfig = {
   networks: {
     hardhat: {},
     arcTestnet: {
-      url: "https://rpc.testnet.arc.network",
+      url: "https://rpc.testnet.arc.io",
       chainId: 5042002,
       // Douglas deploys from his own wallet. Private key is read from the
       // environment at deploy time — never committed, never held by anyone else.

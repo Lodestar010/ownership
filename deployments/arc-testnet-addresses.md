@@ -1,7 +1,7 @@
 # Arc Testnet Deployment — Verified Addresses
 
 Deployed 2026-10-02 ~00:06 CDT by `0x9b5D6e41a3c0E4eb10c685Acd44CB29Db14451ab` (69 txs, all successful).
-Independently verified on-chain 2026-10-02 via rpc.testnet.arc.network + explorer.testnet.arc.io.
+Independently verified on-chain 2026-10-02 via rpc.testnet.arc.io + explorer.testnet.arc.io.
 Chain: Arc testnet, chain ID 5042002. Canonical EntryPoint v0.7: `0x0000000071727De22E5E9d8BAf0edAc6f37da032`.
 
 | Contract | Proxy | Implementation |

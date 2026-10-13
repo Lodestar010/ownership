@@ -46,7 +46,7 @@ function namehash(name: string): string {
   return node;
 }
 
-const provider = new ethers.JsonRpcProvider("https://rpc.testnet.arc.network");
+const provider = new ethers.JsonRpcProvider("https://rpc.testnet.arc.io");
 const registry = new ethers.Contract(proxies.Registry, abis.Registry, provider);
 
 const owner = await registry.owner(namehash("alice.arc"));
@@ -59,7 +59,7 @@ console.log("alice.arc is owned by:", owner);
 import { ethers } from "ethers";
 import { proxies, abis } from "@lodestarfo/arc-naming-contracts";
 
-const provider = new ethers.JsonRpcProvider("https://rpc.testnet.arc.network");
+const provider = new ethers.JsonRpcProvider("https://rpc.testnet.arc.io");
 const registry = new ethers.Contract(proxies.Registry, abis.Registry, provider);
 const resolverAddr = await registry.resolver(namehash("alice.arc"));
 
@@ -76,7 +76,7 @@ Registering goes through the **Registrar**. On testnet, names of 7+ characters a
 import { ethers } from "ethers";
 import { proxies, abis } from "@lodestarfo/arc-naming-contracts";
 
-const provider = new ethers.JsonRpcProvider("https://rpc.testnet.arc.network");
+const provider = new ethers.JsonRpcProvider("https://rpc.testnet.arc.io");
 const signer = new ethers.Wallet(process.env.PRIVATE_KEY!, provider);
 
 const registrar = new ethers.Contract(proxies.Registrar, abis.Registrar, signer);
@@ -95,7 +95,7 @@ The **paymaster** can pay gas for your users' transactions, so they don't need t
 import { ethers } from "ethers";
 import { proxies, abis } from "@lodestarfo/arc-naming-contracts";
 
-const provider = new ethers.JsonRpcProvider("https://rpc.testnet.arc.network");
+const provider = new ethers.JsonRpcProvider("https://rpc.testnet.arc.io");
 const paymaster = new ethers.Contract(proxies.ArcPaymaster, abis.ArcPaymaster, provider);
 
 const deposit = await paymaster.depositBalance();
